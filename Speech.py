@@ -118,7 +118,7 @@ if fruveg.lower() == 'grapes':
     plt.axis('off')
     plt.show()
 if fruveg.lower() == 'carrot':
-    text = "One medium sized carrot of 61g provides 25 calories, 0.5g of protein, 6g of carbohydrates, and 0g of fat. Carrots are an excellent source of vitamin K, fiber, and vitamin A.  "
+    text = "One medium sized carrot of 61g provides 25 calories, 0.5 grams of protein, 6g of carbohydrates, and 0g of fat. Carrots are an excellent source of vitamin K, fiber, and vitamin A.  "
     engine = pyttsx3.init()
     voices = engine.getProperty('voices')
     for sound in voices:
