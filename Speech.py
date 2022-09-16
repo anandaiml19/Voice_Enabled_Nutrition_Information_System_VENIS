@@ -3,7 +3,7 @@ from skimage import io
 import matplotlib.pyplot as plt
 fruveg = input("Enter a fruit/vegetable to know the nutrients:")
 if fruveg.lower() == 'orange':
-    text = "One navel orange of 140 gram provides 73 calories, 1.3 gram of protein, 16.5 gram of carbohydrates and 0.2 gram of fat. Oranges are an excellent source of vitamin C, fiber, and potassium. "
+    text = "One navel orange of 140 gram provides 73 calories, 1.3 grams of protein, 16.5 grams of carbohydrates and 0.2 grams of fat. Oranges are an excellent source of vitamin C, fiber, and potassium. "
     engine = pyttsx3.init()
     voices = engine.getProperty('voices')
     for sound in voices:
